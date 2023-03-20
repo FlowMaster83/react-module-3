@@ -1,9 +1,9 @@
 // сначала стейт, метод жизненного цикла, кастомные методы, метод рендер
 import React, { Component } from 'react';
-import Container from './Container/Container';
-import Modal from '../components/Modal';
-import Clock from './Clock';
-import Tabs from './Tabs';
+import Container from './components/Container/Container';
+import Modal from './components/Modal';
+import Clock from './components/Clock';
+import Tabs from './components/Tabs';
 
 class App extends Component {
   state = {
@@ -69,7 +69,6 @@ class App extends Component {
           Show/Hide timer
         </button> */}
 
-        
         <Tabs />
         <button type="button" onClick={this.toggleModal}>
           Open Modal Window
