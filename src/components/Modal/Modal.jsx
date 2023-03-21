@@ -43,7 +43,7 @@ export default class Modal extends Component {
       <div className="Modal__backdrop" onCLick={this.handleBackdropClick}>
         <div className="Modal__content">{this.props.children}</div>
       </div>,
-      //   а 2м аргументом - ссылка на modalRoot.
+      // а 2м аргументом - ссылка на modalRoot.
       modalRoot
     );
   }

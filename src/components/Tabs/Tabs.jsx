@@ -10,7 +10,7 @@ export default class Tabs extends Component {
   };
 
   render() {
-    console.log('Re-render @ ${Date.now()}');
+    console.log(`Re-render @ ${Date.now()}`);
 
     const { activeTabIdx } = this.state;
     const { items } = this.props;
